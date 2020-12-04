@@ -1,0 +1,61 @@
+<html>
+<body>
+    <meta charset="utf-8">
+<link rel="stylesheet" href="css/StyleSheet.css">
+<div style="background-image: url('images/slice.png');">
+  <div id="wrapper">
+  <div id="inputs">
+  <div>
+<center><form name="input" action="#" method="post">
+  <h1> Place Your Order</h1>
+  First name: <input type="text" name="firstname" placeholder="John"><br/>
+  Last name: <input type="text" name="lastname" placeholder="Smith"><br/>
+  Phone Number:<input type="number" name="number" placeholder="1 756 568 68895">
+ <br/> 
+    <p>Pizza Sizes & Pizza toppings</p>
+    <MENU>
+
+        <LI><INPUT type="radio" name="size" value="8">8-inch  Small <option value="$9.00"></option>  </LI>
+        <LI><INPUT type="radio" name="size" value="10">10-inch Medium <option value="$12.00"></option> </LI>
+        <LI><INPUT type="radio" name="size" value="12" checked>12-inch Large  <option value="$14.00"></option> </LI>
+
+        <LI><INPUT type="radio" name="size" value="14">14-inch Extra-Large <option value="$30.00"></option> </LI>
+    
+      </MENU>
+      
+    <input type='checkbox' checked>Cheese <option value="$2.50"></option>
+    <input type='checkbox'>Mushrooms <option value="$3.00"></option>
+    <input type='checkbox'>Pepperoni <option value="$4.00"></option>
+    <input type='checkbox'>Olives <option value="$5.00"></option>
+    <input type='checkbox'>Italian Sausage <option value="$6.00"></option>
+    <p>Comments:</br></p>
+	  <textarea></textarea>
+      <p></p>
+      
+     <a onclick='myFunction()' type="button" href="yourOrder.html">Submit</a>
+    
+     <p id="demo"></p>
+
+     
+     <script>
+    function myFunction() {
+    var x = document.getElementById("frm1");
+    var text = "";
+    var i;
+    for (i = 0; i < x.length ;i++) {
+    text += x.elements[i].value + "<br>";
+    }
+  document.getElementById("demo").innerHTML = text;
+}
+     
+     </script>
+    
+    
+
+</form>
+</div>
+</div>
+</body>
+
+
+</html>
