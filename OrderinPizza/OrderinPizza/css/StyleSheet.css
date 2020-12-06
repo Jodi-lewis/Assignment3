@@ -1,0 +1,26 @@
+
+body{
+  font-family:Patrick Hand SC;
+  font-size:25px;
+  background-image:url();
+  background-size:cover;
+}
+h1{
+  font-family:Cabin Sketch;
+  font-size:80px;
+}
+form{
+  
+  border-radius:auto;
+  height:auto;
+  width:auto;
+}
+#wrapper{
+  margin-top:auto;
+ float:auto;
+}
+input{
+  font-family:Waiting for the Sunrise;
+  font-size:17px;
+  font-weight:bold;
+}
